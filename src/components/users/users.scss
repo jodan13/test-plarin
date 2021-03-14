@@ -1,0 +1,25 @@
+.grid-elem {
+  display: flex;  
+  justify-content: center;
+  align-items: flex-end;
+  height: 200px;
+  background-color: black;
+  color: aliceblue;
+  font-size: 26px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-shadow: black 1px 1px 0, black -1px -1px 0, 
+  black -1px 1px 0, black 1px -1px 0;
+  &:last-child {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    background-color:lightblue;
+    color: black;
+    font-size: 70px;
+  }
+}
